@@ -1,0 +1,116 @@
+.Cat {
+    width: 300px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.wrapList{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapImage {
+    margin: 35px auto;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+input {
+    margin: 5px 0px 0px 20px;
+    padding: 5px 5px; 
+    background:rgb(255, 255, 255); 
+    border: 0 none;
+    -webkit-border-radius: 5px;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center; 
+    text-decoration:underline;
+    color: darksalmon;
+}
+
+.profileImage {
+    vertical-align: middle;
+    object-fit: cover;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.todoListHeader {
+    vertical-align: middle;
+    margin: 50px;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.setting {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 15px;
+    height: 15px;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+
+.next {
+    width: 500px;
+    float: right;
+    cursor: pointer;
+    color: darksalmon;
+}
+
+.largeCircle {
+    display:inline-block;
+    position:relative;
+    object-fit: cover;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.smallCircle {
+    display:inline-block;
+    position:relative;
+    object-fit: cover;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.grayscale {
+    -webkit-filter:grayscale(1);
+}
+
+.saturate {
+    -webkit-filter:saturate(0.5);
+}
+
+.opacity {
+    -webkit-filter:opacity(0.5);
+}
+
+
