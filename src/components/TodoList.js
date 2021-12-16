@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import cog from './img/settings-cog.svg'
+import cog from '../img/settings-cog.svg'
 
 class TodoList extends Component {
     constructor(props) {

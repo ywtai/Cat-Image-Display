@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './App.css'
-import './NameSetting.css'
+import '../styles/App.css'
+import '../styles/NameSetting.css'
 import TodoList from './TodoList'
 import NameSetting from './NameSetting'
 
-class App extends Component {
+class Root extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,4 +55,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default Root

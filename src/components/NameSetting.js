@@ -18,7 +18,7 @@ class NameSetting extends Component {
     }
 
     handleNumtoImg = (num) => {
-        return require(`./img/cat${num}.jpg`).default;
+        return require(`../img/cat${num}.jpg`).default;
     }
 
     handleNumtoFilter = (num) => {
