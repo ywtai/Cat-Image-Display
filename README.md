@@ -1,4 +1,4 @@
-# Cat Image Display (Unfinished)
+# Cat Image Display
 
 ![Display.gif](https://github.com/ywtai/Cat-Image-Display/blob/main/image/display.gif?raw=true)
 
