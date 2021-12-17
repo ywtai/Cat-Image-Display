@@ -72,7 +72,7 @@ class NameSetting extends Component {
                     <h1>{this.props.text}</h1>
                     <input id="name" name="name" value={this.state.name} onChange={this.changeState}/>
                 </div>
-                <h3>Please Select Your Favorite Image to Be Shown as Your Profile.</h3>
+                <h3>Please select your favorite image to be shown as your profile.</h3>
                 <div className='wrapImage'>
                     <img className='smallCircle' src={this.handleNumtoImg(this.state.img1)} 
                         alt='cat' onClick={() => this.changeImage('backward')} />

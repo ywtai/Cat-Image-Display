@@ -27,7 +27,7 @@ class TodoList extends Component {
                 <img className='setting' src={cog} onClick={() => this.props.setCurrentPage('NameSetting')} alt='setting' />
                 <div className='wrapList'>
                     <div className='todoList'>
-                        <input id="name" name="name" value={this.state.name} onChange={this.changeState}/>
+                        {/* <input id="name" name="name" value={this.state.name} onChange={this.changeState}/> */}
 
                     </div>
                 </div>
