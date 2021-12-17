@@ -1,6 +1,6 @@
 # Cat Image Display (Unfinished)
 
-![Display.gif](image\display.gif?raw=true)
+![Display.gif](https://github.com/ywtai/Cat-Image-Display/blob/main/image/display.gif?raw=true)
 
 ## Description
 User can enter your name and choose a cat image with filter to be shown as your profile in your todo list.
